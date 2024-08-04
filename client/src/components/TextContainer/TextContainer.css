@@ -1,0 +1,42 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: white;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize
+}
+
+.activeItem p {
+  margin-top: -5px;
+  font-size: 25px;
+}
+
+.activeContainer img {
+  margin-top: -30px;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+  font-size: 25px
+}
+
+@media (min-width: 200px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
